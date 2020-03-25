@@ -1,0 +1,38 @@
+{
+  "vocabulary" : {
+    "level1" : {
+      "no1" : {
+        "discription" : "animal",
+        "type" : "n.",
+        "word" : "cat"
+      },
+      "no2" : {
+        "discription" : "animal",
+        "type" : "n.",
+        "word" : "ant"
+      },
+      "no3" : {
+        "discription" : "animal",
+        "type" : "n.",
+        "word" : "bird"
+      },
+      "no4" : {
+        "discription" : "animal",
+        "type" : "n.",
+        "word" : "ant"
+      }
+    },
+    "level2" : {
+      "no1" : {
+        "discription" : "animal",
+        "type" : "n.",
+        "word" : "cat"
+      },
+      "no2" : {
+        "discription" : "animal",
+        "type" : "n.",
+        "word" : "ant"
+      }
+    }
+  }
+}
