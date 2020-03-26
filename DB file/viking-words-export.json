@@ -2,36 +2,82 @@
   "vocabulary" : {
     "level1" : {
       "no1" : {
-        "discription" : "animal",
-        "type" : "n.",
-        "word" : "cat"
+        "meaning" : "จัดสรร (หน้าที่, เงิน)",
+        "type" : "v.",
+        "word" : "allocate"
       },
       "no2" : {
-        "discription" : "animal",
-        "type" : "n.",
-        "word" : "ant"
+        "meaning" : "คงทน, มั่นคง",
+        "type" : "adj.",
+        "word" : "adurablent"
       },
       "no3" : {
-        "discription" : "animal",
+        "meaning" : "งาน, ภารกิจ",
         "type" : "n.",
-        "word" : "bird"
+        "word" : "task"
       },
       "no4" : {
-        "discription" : "animal",
+        "meaning" : "เร่งด่วน",
+        "type" : "adj.",
+        "word" : "urgent"
+      },
+      "no5" : {
+        "meaning" : "ละไว้, เว้นไว้",
+        "type" : "v.",
+        "word" : "omit"
+      },
+      "no6" : {
+        "meaning" : "รายได้",
         "type" : "n.",
-        "word" : "ant"
+        "word" : "revenue"
       }
     },
     "level2" : {
       "no1" : {
-        "discription" : "animal",
+        "meaning" : "การตรวจตรา",
         "type" : "n.",
-        "word" : "cat"
+        "word" : "inspection"
       },
       "no2" : {
-        "discription" : "animal",
+        "meaning" : "directory",
         "type" : "n.",
-        "word" : "ant"
+        "word" : "directory"
+      },
+      "no3" : {
+        "meaning" : "จ้างงาน",
+        "type" : "v.",
+        "word" : "hire"
+      },
+      "no4" : {
+        "meaning" : "มารยาท, กิริยาท่าทาง",
+        "type" : "n.",
+        "word" : "manner"
+      }
+    },"level3" : {
+      "no1" : {
+        "meaning" : "ปฐมนิเทศ",
+        "type" : "n.",
+        "word" : "orientation"
+      },
+      "no2" : {
+        "meaning" : "การชำระเงินคืน",
+        "type" : "n.",
+        "word" : "reimbursement"
+      },
+      "no3" : {
+        "meaning" : "การล้มละลาย",
+        "type" : "n.",
+        "word" : "bankruptcy"
+      },
+      "no4" : {
+        "meaning" : "รายการธุรกรรม",
+        "type" : "n.",
+        "word" : "transaction"
+      },
+      "no5" : {
+        "meaning" : "อย่างรวดเร็ว, อย่างฮวบฮาบ",
+        "type" : "n.",
+        "word" : "drastically"
       }
     }
   }
