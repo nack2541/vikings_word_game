@@ -725,3 +725,4 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/unity,android,windows,firebase,visualstudio,androidstudio,visualstudiocode,openframeworks+visualstudio
+vikings word project/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_13_0.so
