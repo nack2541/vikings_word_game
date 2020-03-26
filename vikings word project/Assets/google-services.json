@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "16243131927",
+    "firebase_url": "https://viking-words.firebaseio.com",
+    "project_id": "viking-words",
+    "storage_bucket": "viking-words.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16243131927:android:41f3381431bb7bdedc7e52",
+        "android_client_info": {
+          "package_name": "com.finalproject.vikingswordgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16243131927-6ab2hg3c7kmtmv89fnti3l84hncqku3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2Zb0v57DI61KWZCoTQy5_TGsPfv0VdAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16243131927-6ab2hg3c7kmtmv89fnti3l84hncqku3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

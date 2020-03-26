@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://viking-words.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">16243131927</string>
+  <string name="google_storage_bucket" translatable="false">viking-words.appspot.com</string>
+  <string name="project_id" translatable="false">viking-words</string>
+  <string name="google_api_key" translatable="false">AIzaSyC2Zb0v57DI61KWZCoTQy5_TGsPfv0VdAQ</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC2Zb0v57DI61KWZCoTQy5_TGsPfv0VdAQ</string>
+  <string name="google_app_id" translatable="false">1:16243131927:android:41f3381431bb7bdedc7e52</string>
+  <string name="default_web_client_id" translatable="false">16243131927-6ab2hg3c7kmtmv89fnti3l84hncqku3c.apps.googleusercontent.com</string>
+</resources>
