@@ -6,6 +6,6 @@
   <string name="project_id" translatable="false">viking-words</string>
   <string name="google_api_key" translatable="false">AIzaSyC2Zb0v57DI61KWZCoTQy5_TGsPfv0VdAQ</string>
   <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC2Zb0v57DI61KWZCoTQy5_TGsPfv0VdAQ</string>
-  <string name="google_app_id" translatable="false">1:16243131927:android:41f3381431bb7bdedc7e52</string>
+  <string name="google_app_id" translatable="false">1:16243131927:android:af62f10df583ede7dc7e52</string>
   <string name="default_web_client_id" translatable="false">16243131927-6ab2hg3c7kmtmv89fnti3l84hncqku3c.apps.googleusercontent.com</string>
 </resources>
