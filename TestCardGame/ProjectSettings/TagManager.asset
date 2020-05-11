@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Cards
+    uniqueID: 779462663
+    locked: 0
+  - name: Creatures
+    uniqueID: 2238764607
+    locked: 0
+  - name: EveryThings
+    uniqueID: 3423572913
+    locked: 0

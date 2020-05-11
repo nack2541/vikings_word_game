@@ -9,8 +9,8 @@ public class OneCardManager : MonoBehaviour {
     public OneCardManager PreviewManager;
     [Header("Text Component References")]
     public Text NameText;
-    public Text ManaCostText;
     public Text DescriptionText;
+    public Text TypeText;
     public Text HealthText;
     public Text AttackText;
     [Header("Image References")]
@@ -64,11 +64,11 @@ public class OneCardManager : MonoBehaviour {
         }
         // 2) add card name
         NameText.text = cardAsset.name;
-        // 3) add mana cost
-        ManaCostText.text = cardAsset.ManaCost.ToString();
         // 4) add description
         DescriptionText.text = cardAsset.Description;
-        // 5) Change the card graphic sprite
+        // 5) add type
+        TypeText.text=cardAsset.type;
+        // 6) Change the card graphic sprite
         CardGraphicImage.sprite = cardAsset.CardImage;
 
         if (cardAsset.MaxHealth != 0)
