@@ -370,7 +370,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603437842775419423}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1490,6 +1490,7 @@ GameObject:
   - component: {fileID: 4584513048952323993}
   - component: {fileID: 5402941212118247823}
   - component: {fileID: 2321310792794322244}
+  - component: {fileID: 1383079179594402207}
   m_Layer: 0
   m_Name: Creature
   m_TagString: Untagged
@@ -1543,6 +1544,24 @@ MonoBehaviour:
   TargetScale: 1.5
   previewGameObject: {fileID: 7132092141982500022}
   ActivateInAwake: 1
+--- !u!114 &1383079179594402207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584513048952323992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893a3b1b72624db41846130ecae5e2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardAsset: {fileID: 0}
+  PreviewManager: {fileID: 6238197010188569868}
+  HealthText: {fileID: 2212015275704293383}
+  AttackText: {fileID: 4466614402621491880}
+  CreatureGraphicImage: {fileID: 1785132053040434469}
+  CreatureGlowImage: {fileID: 5359424153352183879}
 --- !u!1 &4584513050312706235
 GameObject:
   m_ObjectHideFlags: 0
