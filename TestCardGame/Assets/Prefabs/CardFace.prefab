@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 5196492630492533954}
   - component: {fileID: 755067730589310569}
   m_Layer: 0
-  m_Name: cardFace
+  m_Name: CardFace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -718,7 +718,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572617821871527093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.375, y: 2.495, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1572617822924956565}
