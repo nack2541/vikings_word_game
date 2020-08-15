@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000013977121244}
+  - component: {fileID: 4688054099036900247}
   m_Layer: 0
   m_Name: DamageEffect
   m_TagString: Untagged
@@ -31,6 +32,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4688054099036900247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010596834944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25170c67c5f694a4dae1f6dd928fd604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Splashes:
+  - {fileID: -2493255011976541009, guid: be0ead98a08b4cf43a6fdc1438e45cf5, type: 3}
+  - {fileID: 5069738823009980727, guid: be0ead98a08b4cf43a6fdc1438e45cf5, type: 3}
+  - {fileID: 5108685969370288241, guid: be0ead98a08b4cf43a6fdc1438e45cf5, type: 3}
+  - {fileID: 3273053921861524778, guid: be0ead98a08b4cf43a6fdc1438e45cf5, type: 3}
+  DamageImage: {fileID: 114000014289333430}
+  cg: {fileID: 225000012739685270}
+  AmountText: {fileID: 114000012841546712}
 --- !u!1 &1000012047287036
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,11 +113,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: a53be58aea36e7c48af3f308c36e8c14, type: 3}
+    m_Font: {fileID: 12800000, guid: 12d2166061e35f344be0de05f6aacac0, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -299,12 +321,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9632353, g: 0.27622187, b: 0.27622187, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 45addcdaab160324eb37ad9b3e11b9c1, type: 3}
+  m_Sprite: {fileID: -2493255011976541009, guid: be0ead98a08b4cf43a6fdc1438e45cf5,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -327,7 +351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 2, y: -2}
+  m_EffectDistance: {x: 3, y: -3}
   m_UseGraphicAlpha: 1
   m_circleCount: 4
   m_firstSample: 4
