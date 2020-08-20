@@ -15,7 +15,7 @@ public class DragOnTargetTest : DraggingActionsTest
     {
         sr = GetComponent<SpriteRenderer>();
         lr = GetComponentInChildren<LineRenderer>();
-        lr.sortingLayerName = "EveryThings";
+        lr.sortingLayerName = "AboveEverything";
         triangle = transform.Find("Triangle");
         triangleSR = triangle.GetComponent<SpriteRenderer>();
     }

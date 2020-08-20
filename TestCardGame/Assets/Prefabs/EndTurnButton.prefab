@@ -314,7 +314,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6977346680683682573}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: EndTurnTest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6977346681318929628
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d3ea721f2de58c842b1fb3b66f71f296, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56547932a0a8f38498a21b51a0d6b527, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

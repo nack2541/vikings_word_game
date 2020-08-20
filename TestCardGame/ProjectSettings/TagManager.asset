@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - LowCreature
+  - TopCreature
+  - LowCard
+  - TopCard
+  - LowPlayer
+  - TopPlayer
   layers:
   - Default
   - TransparentFX
@@ -47,7 +53,7 @@ TagManager:
   - name: Creatures
     uniqueID: 2238764607
     locked: 0
-  - name: EveryThings
+  - name: AboveEverything
     uniqueID: 3423572913
     locked: 0
   - name: Scramble

@@ -99,6 +99,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4280847698077037077}
+  - component: {fileID: 560166842}
+  - component: {fileID: 560166841}
   m_Layer: 0
   m_Name: TableVisual
   m_TagString: Untagged
@@ -121,6 +123,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &560166842
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4280847698077037076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 18.690083, y: 2.1651993, z: 0.099999905}
+  m_Center: {x: -1.6590877, y: 0.7329235, z: 1}
+--- !u!114 &560166841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4280847698077037076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0bc2f049b7441449435eff49ceae16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: 1
+  slots: {fileID: 4280847698282846157}
 --- !u!1 &4280847698282846159
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +197,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Children:
-  - {fileID: 4280847697581325717}
   - {fileID: 4280847696504383050}
+  - {fileID: 4280847697581325717}
   - {fileID: 4280847696397013099}

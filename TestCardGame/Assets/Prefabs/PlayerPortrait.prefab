@@ -60,6 +60,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -183,9 +184,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1544893080634503844}
   - component: {fileID: 6923435803209098418}
+  - component: {fileID: 1552255985}
   m_Layer: 0
   m_Name: PlayerPortrait
-  m_TagString: Untagged
+  m_TagString: LowPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,8 +218,26 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.4470615, y: 2.716528, z: 0.01}
-  m_Center: {x: -0.010037899, y: -0.011186123, z: 0}
+  m_Size: {x: 2.600152, y: 2.424264, z: 0.01}
+  m_Center: {x: -0.08658314, y: 0.3576231, z: 0}
+--- !u!114 &1552255985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544893080634503845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe86204a6bd6be46beee31d231dfbd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charAsset: {fileID: 11400000, guid: 0323d11d5346a50499d7a7d040da21cb, type: 2}
+  HealthText: {fileID: 3773258280982811962}
+  HeroPowerIconImage: {fileID: 0}
+  HeroPowerBackgroundImage: {fileID: 0}
+  PortraitImage: {fileID: 3614691079854227480}
+  PortraitBackgroundImage: {fileID: 834441432314857969}
 --- !u!1 &2216050225387382300
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,6 +299,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -347,10 +368,10 @@ RectTransform:
   m_Father: {fileID: 1544893079337010565}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.6661067, y: 0}
-  m_AnchorMax: {x: 1, y: 0.29547217}
-  m_AnchoredPosition: {x: -11.027283, y: -4.5184937}
-  m_SizeDelta: {x: -18.952892, y: -9.037041}
+  m_AnchorMin: {x: 0.59769, y: 0}
+  m_AnchorMax: {x: 1, y: 0.3826333}
+  m_AnchoredPosition: {x: -6.911957, y: -1.816391}
+  m_SizeDelta: {x: -27.127403, y: -3.5674665}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3965783365906322289
 CanvasRenderer:
@@ -375,6 +396,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -452,6 +474,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -576,6 +599,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -649,6 +673,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
