@@ -232,6 +232,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeroPowerButton
       objectReference: {fileID: 0}
+    - target: {fileID: 767316064551095354, guid: 25d104a36101df44e9886fc5c5fbf438,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 767316064551095355, guid: 25d104a36101df44e9886fc5c5fbf438,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4094,6 +4099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HeroPowerButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 767316064551095354, guid: 25d104a36101df44e9886fc5c5fbf438,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 767316064551095355, guid: 25d104a36101df44e9886fc5c5fbf438,
         type: 3}
