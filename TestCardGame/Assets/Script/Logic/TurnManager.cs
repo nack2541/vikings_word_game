@@ -92,7 +92,7 @@ public class TurnManager : MonoBehaviour {
                 // Debug.Log(whoGoesSecond);
          
                 // draw 4 cards for first player and 5 for second player
-                int initDraw = 4;
+                int initDraw = 1;
                 for (int i = 0; i < initDraw; i++)
                 {            
                     // second player draws a card
@@ -103,7 +103,8 @@ public class TurnManager : MonoBehaviour {
                 // add one more card to second player`s hand
                 whoGoesSecond.DrawACard(true);
                 //new GivePlayerACoinCommand(null, whoGoesSecond).AddToQueue();
-                whoGoesSecond.GetACardNotFromDeck(CoinCard);
+                //TODO add coin card
+                // whoGoesSecond.GetACardNotFromDeck(CoinCard);
                 new StartATurnCommand(whoGoesFirst).AddToQueue();
             });
     }

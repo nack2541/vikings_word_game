@@ -15,10 +15,10 @@ public class DragCreatureOnTable : DraggingActions {
         get
         { 
             // TEST LINE: this is just to test playing creatures before the game is complete 
-            return true;
+            // return true;
 
             // TODO : include full field check
-            // return base.CanDrag && manager.CanBePlayedNow;
+            return base.CanDrag && manager.CanBePlayedNow;
         }
     }
 

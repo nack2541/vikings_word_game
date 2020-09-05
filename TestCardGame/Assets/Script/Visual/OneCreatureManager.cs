@@ -54,7 +54,8 @@ public class OneCreatureManager : MonoBehaviour
     {
         if (amount > 0)
         {
-            //DamageEffect.CreateDamageEffect(transform.position, amount);
+            //TODO
+            DamageEffect.CreateDamageEffect(transform.position, amount);
             HealthText.text = healthAfter.ToString();
         }
     }

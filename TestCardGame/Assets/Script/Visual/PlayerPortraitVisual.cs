@@ -38,6 +38,7 @@ public class PlayerPortraitVisual : MonoBehaviour {
     {
         if (amount > 0)
         {
+            //TODO
             DamageEffect.CreateDamageEffect(transform.position, amount);
             HealthText.text = healthAfter.ToString();
         }

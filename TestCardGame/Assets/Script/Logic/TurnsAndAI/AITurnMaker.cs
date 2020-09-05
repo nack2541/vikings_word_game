@@ -95,8 +95,8 @@ public class AITurnMaker: TurnMaker {
                 // attack a random target with a creature
                 if (p.otherPlayer.table.CreaturesOnTable.Count > 0)
                 {
-                    int index = Random.Range(0, p.otherPlayer.table.CreaturesOnTable.Count);
-                    CreatureLogic targetCreature = p.otherPlayer.table.CreaturesOnTable[index];
+                    int index = Random.Range(0, p.otherPlayer.table.CreaturesOnTable.Count); //ramdon target
+                    CreatureLogic targetCreature = p.otherPlayer.table.CreaturesOnTable[index]; //attack target
                     cl.AttackCreature(targetCreature);
                 }                    
                 else

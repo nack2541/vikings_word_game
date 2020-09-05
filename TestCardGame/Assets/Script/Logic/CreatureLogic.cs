@@ -122,7 +122,7 @@ public class CreatureLogic: ICharacter
     public void AttackCreature (CreatureLogic target)
     {
         AttacksLeftThisTurn--;
-        // calculate the values so that the creature does not fire the DIE command before the Attack command is sent
+        // calculate my card health left before the tarket health left
         int targetHealthAfter = target.Health - Attack;
         int attackerHealthAfter = Health - target.Attack;
         new CreatureAttackCommand(target.UniqueCreatureID, UniqueCreatureID, target.Attack, Attack, attackerHealthAfter, targetHealthAfter).AddToQueue();

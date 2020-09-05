@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e206fc57f453a42b932de9e94caabf, type: 3}
+  m_Name: ninja
+  m_EditorClassIdentifier: 
+  characterAsset: {fileID: 0}
+  Description: this is ninja
+  CardImage: {fileID: -2116232379782308296, guid: 334f0bbe763de3d47b5f33c974333348,
+    type: 3}
+  ManaCost: 0
+  MaxHealth: 5
+  Attack: 8
+  type: Level 2
+  AttacksForOneTurn: 1
+  Charge: 0
+  CreatureScriptName: 
+  specialCreatureAmount: 0
+  SpellScriptName: 
+  specialSpellAmount: 0
+  Targets: 0

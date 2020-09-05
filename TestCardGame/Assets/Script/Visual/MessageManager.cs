@@ -29,7 +29,8 @@ public class MessageManager : MonoBehaviour
         yield return new WaitForSeconds(Duration);
 
         MessagePanel.SetActive(false);
-        // Command.CommandExecutionComplete();
+        //TODO
+        Command.CommandExecutionComplete();
     }
 
     // TEST PURPOSES ONLY
