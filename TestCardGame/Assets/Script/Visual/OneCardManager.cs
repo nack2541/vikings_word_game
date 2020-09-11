@@ -10,7 +10,7 @@ public class OneCardManager : MonoBehaviour {
     [Header("Text Component References")]
     public Text NameText;
     public Text DescriptionText;
-    public Text TypeText;
+    public Text LevelText;
     public Text HealthText;
     public Text AttackText;
     [Header("Image References")]
@@ -66,8 +66,8 @@ public class OneCardManager : MonoBehaviour {
         NameText.text = cardAsset.name;
         // 4) add description
         DescriptionText.text = cardAsset.Description;
-        // 5) add type
-        TypeText.text=cardAsset.type;
+        // 5) add Level
+        LevelText.text=cardAsset.Level.ToString();
         // 6) Change the card graphic sprite
         CardGraphicImage.sprite = cardAsset.CardImage;
 

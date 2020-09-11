@@ -37,7 +37,7 @@ public class CardLogic: IIdentifiable
             bool fieldNotFull = true;
             // but if this is a creature, we have to check if there is room on board (table)
             if (ca.MaxHealth > 0)
-                fieldNotFull = (owner.table.CreaturesOnTable.Count < 7);
+                fieldNotFull = (owner.table.CreaturesOnTable.Count < 3);
             //Debug.Log("Card: " + ca.name + " has params: ownersTurn=" + ownersTurn + "fieldNotFull=" + fieldNotFull + " hasMana=" + (CurrentManaCost <= owner.ManaLeft));
             return ownersTurn && fieldNotFull && (CurrentManaCost <= owner.ManaLeft);
         }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
 
 //this class will take all decisions for AI. 
 
@@ -28,7 +29,7 @@ public class AITurnMaker: TurnMaker {
 
         InsertDelay(1f);
 
-        TurnManager.Instance.EndTurn();
+        //TurnManager.Instance.EndTurn();
     }
 
     bool MakeOneAIMove(bool attackFirst)
@@ -36,9 +37,9 @@ public class AITurnMaker: TurnMaker {
         if (Command.CardDrawPending())
             return true;
         else if (attackFirst)
-            return AttackWithACreature() || PlayACardFromHand() || UseHeroPower();
+            return AttackWithACreature() || PlayACardFromHand() || UseHeroPower() ;
         else 
-            return PlayACardFromHand() || AttackWithACreature() || UseHeroPower();
+            return PlayACardFromHand() || AttackWithACreature() || UseHeroPower() ;
     }
 
     bool PlayACardFromHand()
@@ -94,11 +95,13 @@ public class AITurnMaker: TurnMaker {
             {
                 // attack a random target with a creature
                 if (p.otherPlayer.table.CreaturesOnTable.Count > 0)
-                {
-                    int index = Random.Range(0, p.otherPlayer.table.CreaturesOnTable.Count); //ramdon target
-                    CreatureLogic targetCreature = p.otherPlayer.table.CreaturesOnTable[index]; //attack target
+                {  
+                   
+
+                    CreatureLogic targetCreature = p.otherPlayer.table.CreaturesOnTable.OrderBy(c => c.Attack ).First();
                     cl.AttackCreature(targetCreature);
-                }                    
+
+                }
                 else
                     cl.GoFace();
                 
@@ -107,6 +110,7 @@ public class AITurnMaker: TurnMaker {
                 return true;
             }
         }
+        TurnManager.Instance.EndTurn();
         return false;
     }
 

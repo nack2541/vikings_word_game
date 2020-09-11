@@ -1406,7 +1406,7 @@ GameObject:
   - component: {fileID: 6009279434885744460}
   - component: {fileID: 3940702488375932983}
   m_Layer: 5
-  m_Name: Type
+  m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1521,7 +1521,7 @@ GameObject:
   - component: {fileID: 4311920316696888634}
   - component: {fileID: 6002881087604679613}
   m_Layer: 5
-  m_Name: TypeText
+  m_Name: LevelText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2041,7 +2041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3293413256799373210
 Transform:
   m_ObjectHideFlags: 0
@@ -2074,7 +2074,7 @@ MonoBehaviour:
   PreviewManager: {fileID: 0}
   NameText: {fileID: 1194653754961915311}
   DescriptionText: {fileID: 3391755230923744587}
-  TypeText: {fileID: 3574408229664742589}
+  LevelText: {fileID: 3574408229664742589}
   HealthText: {fileID: 4033400579913781884}
   AttackText: {fileID: 438881792031574273}
   CardTopRibbonImage: {fileID: 1515413773785968379}
@@ -3457,7 +3457,7 @@ MonoBehaviour:
   PreviewManager: {fileID: 7498406375828428949}
   NameText: {fileID: 5019710016800848357}
   DescriptionText: {fileID: 3843137110042276744}
-  TypeText: {fileID: 4311920316696888634}
+  LevelText: {fileID: 4311920316696888634}
   HealthText: {fileID: 6270054199202760700}
   AttackText: {fileID: 8380503039343007059}
   CardTopRibbonImage: {fileID: 286582982123735590}

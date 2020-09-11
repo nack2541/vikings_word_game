@@ -19,7 +19,7 @@ MonoBehaviour:
   ManaCost: 0
   MaxHealth: 2
   Attack: 2
-  type: 2
+  Level: 2
   AttacksForOneTurn: 1
   Charge: 0
   CreatureScriptName: 
