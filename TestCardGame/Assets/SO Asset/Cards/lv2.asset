@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: lv2
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
-  Description: card lv2
+  Description: level
   CardImage: {fileID: 1709574347212344892, guid: 90ddd022710bb7343a1d3126ef2048a1,
     type: 3}
   ManaCost: 0

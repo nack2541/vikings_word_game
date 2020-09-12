@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: lv4
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
-  Description: card lv4
+  Description: level
   CardImage: {fileID: 21300000, guid: 2bdd0d7b9d459564a95ad114bfe6d031, type: 3}
   ManaCost: 0
   MaxHealth: 4

@@ -9,6 +9,7 @@ public class OneCardManager : MonoBehaviour {
     public OneCardManager PreviewManager;
     [Header("Text Component References")]
     public Text NameText;
+    public Text ManaCostText;
     public Text DescriptionText;
     public Text LevelText;
     public Text HealthText;
@@ -68,6 +69,8 @@ public class OneCardManager : MonoBehaviour {
         DescriptionText.text = cardAsset.Description;
         // 5) add Level
         LevelText.text=cardAsset.Level.ToString();
+        // add Manacost
+        ManaCostText.text=cardAsset.ManaCost.ToString();
         // 6) Change the card graphic sprite
         CardGraphicImage.sprite = cardAsset.CardImage;
 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: newNinja
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 0}
-  Description: wow ninja
+  Description: level
   CardImage: {fileID: -2116232379782308296, guid: 334f0bbe763de3d47b5f33c974333348,
     type: 3}
   ManaCost: 0
