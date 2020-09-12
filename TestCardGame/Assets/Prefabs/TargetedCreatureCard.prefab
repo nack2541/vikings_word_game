@@ -1586,7 +1586,7 @@ MonoBehaviour:
   PreviewManager: {fileID: 0}
   NameText: {fileID: 320684000129956561}
   DescriptionText: {fileID: 4320887514207007285}
-  TypeText: {fileID: 2701551180992252867}
+  LevelText: {fileID: 2701551180992252867}
   HealthText: {fileID: 2530613223798818050}
   AttackText: {fileID: 1364651773316243071}
   CardTopRibbonImage: {fileID: 135349781601843589}
@@ -3325,7 +3325,7 @@ MonoBehaviour:
   PreviewManager: {fileID: 9000654936873488363}
   NameText: {fileID: 5858787903929364123}
   DescriptionText: {fileID: 2428179012544242934}
-  TypeText: {fileID: 3400230406643044932}
+  LevelText: {fileID: 3400230406643044932}
   HealthText: {fileID: 4892239838186541186}
   AttackText: {fileID: 6965529549223084589}
   CardTopRibbonImage: {fileID: 1665534238094171480}
