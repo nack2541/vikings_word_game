@@ -30,11 +30,11 @@ public class CharObject : MonoBehaviour
         image.color = isSelected ? selectedColor : normalColor;
         if (isSelected)
         {
-            WordScramble.main.Select(this);
+            WordScramble.Instance.Select(this);
         }
         else
         {
-            WordScramble.main.Unselect();
+            WordScramble.Instance.Unselect();
         }
     }
 }

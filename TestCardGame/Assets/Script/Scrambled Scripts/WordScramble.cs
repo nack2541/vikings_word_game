@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 [System.Serializable]
 public class Word
@@ -41,6 +43,8 @@ public class WordScramble : MonoBehaviour
     [Header("UI Referrence")]
     public CharObject prefab;
     public Transform container;
+    public GameObject vocabField;
+    public Text pointText;
     public float space;
     public float lerpSpeed;
 
@@ -48,11 +52,28 @@ public class WordScramble : MonoBehaviour
     CharObject firstSelected;
     public int currentWord;
 
-    public static WordScramble main;
+    public static WordScramble Instance;
 
     void Awake()
     {
-        main = this;
+        Instance = this;
+        vocabField.SetActive(false);
+    }
+    public void ShowVocabField(float Duration)
+    {
+        StartCoroutine(ShowVocabFieldCoroutine(Duration));
+    }
+
+    IEnumerator ShowVocabFieldCoroutine(float Duration)
+    {
+        //Debug.Log("Showing some message. Duration: " + Duration);
+        vocabField.SetActive(true);
+
+        yield return new WaitForSeconds(Duration);
+
+        vocabField.SetActive(false);
+        //TODO
+        Command.CommandExecutionComplete();
     }
     // Start is called before the first frame update
     void Start()
@@ -155,6 +176,7 @@ public class WordScramble : MonoBehaviour
         if (word == words[currentWord].word)
         {
             currentWord++;
+            pointText.text=currentWord.ToString();
             ShowScramble(currentWord);
         }
     }
