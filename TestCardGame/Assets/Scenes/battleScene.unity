@@ -693,10 +693,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 502103086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f470ac113e2ca5419351c3d4c1bcfbe, type: 3}
+  m_Script: {fileID: 11500000, guid: d055d7a0b148b46418a9b190fd711556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wordScramble: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,7 +2278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RopeGameObject: {fileID: 0}
   RopeSlider: {fileID: 0}
-  TimeForOneTurn: 60
+  TimeForOneTurn: 20
   RopeBurnTime: 0
   TimerText: {fileID: 6977346680557747879}
   TimerExpired:

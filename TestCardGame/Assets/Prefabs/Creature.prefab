@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d63d439f803c704d900e4cead24c232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TurnThisOffWhenPreviewing: {fileID: 7532208618857892090}
+  TurnThisOffWhenPreviewing: {fileID: 0}
   TargetPosition: {x: 1.5, y: 0, z: 0}
   TargetScale: 1.5
   previewGameObject: {fileID: 2693222978010630395}
@@ -2662,7 +2662,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 779462663
+  m_SortingLayerID: -871394383
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &6750024197982974327

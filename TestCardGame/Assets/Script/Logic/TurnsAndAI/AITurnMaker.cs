@@ -29,7 +29,7 @@ public class AITurnMaker: TurnMaker {
 
         InsertDelay(1f);
 
-        //TurnManager.Instance.EndTurn();
+        // TurnManager.Instance.EndTurn();
     }
 
     bool MakeOneAIMove(bool attackFirst)
@@ -37,7 +37,7 @@ public class AITurnMaker: TurnMaker {
         if (Command.CardDrawPending())
             return true;
         else if (attackFirst)
-            return AttackWithACreature() || PlayACardFromHand() || UseHeroPower() ;
+            return AttackWithACreature() || PlayACardFromHand() || UseHeroPower()  ;
         else 
             return PlayACardFromHand() || AttackWithACreature() || UseHeroPower() ;
     }
