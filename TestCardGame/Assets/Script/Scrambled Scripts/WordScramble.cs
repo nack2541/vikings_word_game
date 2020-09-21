@@ -50,15 +50,20 @@ public class WordScramble : MonoBehaviour
 
     List<CharObject> charObjects = new List<CharObject>();
     CharObject firstSelected;
-    public int currentWord;
+    private int currentWord;
 
     public static WordScramble Instance;
+
+    private int currentScore;
+    public int manaFromScore;
 
     void Awake()
     {
         Instance = this;
         vocabField.SetActive(false);
+        manaFromScore=1;
     }
+
     public void ShowVocabField(float Duration)
     {
         StartCoroutine(ShowVocabFieldCoroutine(Duration));
@@ -68,23 +73,31 @@ public class WordScramble : MonoBehaviour
     {
         //Debug.Log("Showing some message. Duration: " + Duration);
         vocabField.SetActive(true);
+        ShowScramble(currentWord);
 
         yield return new WaitForSeconds(Duration);
-
         vocabField.SetActive(false);
+        manaFromScore=currentScore;
+        // Debug.Log("Showing thisMana " + thisMana);
+
+        ResetPoint();
         //TODO
         Command.CommandExecutionComplete();
     }
     // Start is called before the first frame update
     void Start()
     {
-        ShowScramble(currentWord);
+        // ShowScramble(currentWord);
     }
 
     // Update is called once per frame
     void Update()
     {
         RePositionObject();
+    }
+    public void ResetPoint(){
+        currentScore=0;
+        pointText.text=currentScore.ToString();
     }
     void RePositionObject()
     {
@@ -176,10 +189,13 @@ public class WordScramble : MonoBehaviour
         if (word == words[currentWord].word)
         {
             currentWord++;
-            pointText.text=currentWord.ToString();
+            currentScore++; // Increase score
+            pointText.text=currentScore.ToString();//change score 
             ShowScramble(currentWord);
         }
     }
+
+    
     
 
 }

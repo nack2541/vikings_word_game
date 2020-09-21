@@ -121,7 +121,7 @@ public class Player : MonoBehaviour, ICharacter
         // obtain unique id from IDFactory
         PlayerID = IDFactory.GetUniqueID();
     }
-
+    public WordScramble wordScramble;
     public virtual void OnTurnStart()
     {
         // add one mana crystal to the pool;
@@ -130,7 +130,7 @@ public class Player : MonoBehaviour, ICharacter
         if (GetComponent<TurnMaker>() is AITurnMaker) // player is AI
             ManaThisTurn += 1; // still give only 1 mana for AI
         else // player is human
-            ManaThisTurn += 2; // add 2 mana instead of 1 in the start of each turn for players
+            ManaThisTurn += wordScramble.manaFromScore; // add mana when you are human
         ManaLeft = ManaThisTurn;
         foreach (CreatureLogic cl in table.CreaturesOnTable)
             cl.OnTurnStart();

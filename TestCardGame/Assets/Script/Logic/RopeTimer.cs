@@ -8,8 +8,9 @@ public class RopeTimer : MonoBehaviour, IEventSystemHandler
 {
     public GameObject RopeGameObject;
     public Slider RopeSlider;
-	public float TimeForOneTurn;
-    public float RopeBurnTime;
+    public float TimeForOneTurn;
+    public float StartRopeBurnTime;
+    public float EndRopeBurnTime;
     public Text TimerText;
 
     private float timeTillZero;
@@ -23,39 +24,39 @@ public class RopeTimer : MonoBehaviour, IEventSystemHandler
     {
         if (RopeGameObject != null)
         {
-            RopeSlider.minValue = 0;
-            RopeSlider.maxValue = RopeBurnTime;
+            RopeSlider.minValue = EndRopeBurnTime;
+            RopeSlider.maxValue = StartRopeBurnTime;
             RopeGameObject.SetActive(false);
         }
     }
 
     public void StartTimer()
-	{
+    {
         timeTillZero = TimeForOneTurn;
-		counting = true;
+        counting = true;
         ropeIsBurning = false;
-        if (RopeGameObject!=null)
+        if (RopeGameObject != null)
             RopeGameObject.SetActive(false);
-	} 
+    }
 
-	public void StopTimer()
-	{
-		counting = false;
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		if (counting) 
-		{
-			timeTillZero -= Time.deltaTime;
-            if (TimerText!=null)
+    public void StopTimer()
+    {
+        counting = false;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (counting)
+        {
+            timeTillZero -= Time.deltaTime;
+            if (TimerText != null)
                 TimerText.text = ToString();
 
             if (RopeGameObject != null)
             {
                 // check for rope
-                if (timeTillZero <= RopeBurnTime && !ropeIsBurning)
+                if (timeTillZero <= StartRopeBurnTime && !ropeIsBurning)
                 {
                     ropeIsBurning = true;
                     RopeGameObject.SetActive(true);
@@ -68,26 +69,26 @@ public class RopeTimer : MonoBehaviour, IEventSystemHandler
             }
 
             // check for TimeExpired
-			if(timeTillZero<=0)
-			{
-				counting = false;
+            if (timeTillZero <= 0)
+            {
+                counting = false;
                 //RopeGameObject.SetActive(false);
                 TimerExpired.Invoke();
-			}
-		}
-	
-	}
+            }
+        }
 
-	public override string ToString ()
-	{
-		int inSeconds = Mathf.RoundToInt (timeTillZero);
-		string justSeconds = (inSeconds % 60).ToString ();
-		if (justSeconds.Length == 1)
-			justSeconds = "0" + justSeconds;
-		string justMinutes = (inSeconds / 60).ToString ();
-		if (justMinutes.Length == 1)
-			justMinutes = "0" + justMinutes;
+    }
 
-		return string.Format ("{0}:{1}", justMinutes, justSeconds);
-	}
+    public override string ToString()
+    {
+        int inSeconds = Mathf.RoundToInt(timeTillZero);
+        string justSeconds = (inSeconds % 60).ToString();
+        if (justSeconds.Length == 1)
+            justSeconds = "0" + justSeconds;
+        string justMinutes = (inSeconds / 60).ToString();
+        if (justMinutes.Length == 1)
+            justMinutes = "0" + justMinutes;
+
+        return string.Format("{0}:{1}", justMinutes, justSeconds);
+    }
 }
