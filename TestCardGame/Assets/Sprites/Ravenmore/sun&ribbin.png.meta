@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 1279a7bca4e6e964d8d5738d7bbadaf4
+guid: 8b2995fe585809340aa2e4a0a772fb0d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3143636935629779763
-    second: ByFreepik_0
-  - first:
-      213: -3837633378016692233
-    second: ByFreepik_0
+      213: 2381616695393308019
+    second: sun&ribbin_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,7 +87,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -102,7 +99,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -117,22 +114,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ByFreepik_0
+      name: sun&ribbin_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 176
-        width: 845
-        height: 1491
+        x: 214
+        y: 45
+        width: 1555
+        height: 907
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f7f12d76ccfdbac0800000000000000
-      internalID: -3837633378016692233
+      spriteID: 37dce0024c33d0120800000000000000
+      internalID: 2381616695393308019
       vertices: []
       indices: 
       edges: []

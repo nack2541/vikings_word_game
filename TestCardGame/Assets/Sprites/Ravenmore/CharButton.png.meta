@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 1279a7bca4e6e964d8d5738d7bbadaf4
+guid: 43bee62ff0c802040b3dbbe72a18604a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3143636935629779763
-    second: ByFreepik_0
-  - first:
-      213: -3837633378016692233
-    second: ByFreepik_0
+      213: 6120947558811466951
+    second: charactor template_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,7 +87,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -102,7 +99,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -117,22 +114,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ByFreepik_0
+      name: charactor template_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 176
-        width: 845
-        height: 1491
+        x: 6
+        y: 10
+        width: 61
+        height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f7f12d76ccfdbac0800000000000000
-      internalID: -3837633378016692233
+      spriteID: 7cc70c3ef59f1f450800000000000000
+      internalID: 6120947558811466951
       vertices: []
       indices: 
       edges: []
